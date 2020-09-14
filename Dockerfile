@@ -7,4 +7,12 @@ COPY client/public public/
 COPY client/.browserslistrc client/.eslintrc.js client/babel.config.js client/package-lock.json client/package.json client/vue.config.js ./
 
 RUN npm ci
-RUN npm run b
+RUN npm run build
+
+CMD ["npm", "run", "dev"]
+
+FROM node:14.16.0 as production
+
+WORKDIR /app
+
+COPY --from=build /app/di
