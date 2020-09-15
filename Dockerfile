@@ -19,4 +19,6 @@ COPY --from=build /app/dist ./static
 COPY server/src src
 COPY server/package-lock.json server/package.json ./
 
-RUN npm ci --product
+RUN npm ci --production
+
+CMD [ "npm", "start" ]
