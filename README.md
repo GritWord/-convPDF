@@ -13,3 +13,5 @@ Server:
 - Jsonwebtoken: permet de gérer les connexions des utilisateurs à l'aide de tokens
 - Token utils: permet d'effectuer des opérations sur les tokens
 - bcrypt : permet d'utiliser des fonctions de hashage pour le password
+- cors : utile pour desactiver les restrictions cors sur les fetch api
+- mongodb et mongoose : connection à la bdd mongoDB 
