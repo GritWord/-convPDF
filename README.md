@@ -20,4 +20,6 @@ Server:
 -----------------
 ## Lancement
 
-Pour lancer la p
+Pour lancer la partie serveur, se placer le dossier `server` et taper la commande `npm run dev`.  
+
+Pour lancer la partie
