@@ -22,4 +22,5 @@ Server:
 
 Pour lancer la partie serveur, se placer le dossier `server` et taper la commande `npm run dev`.  
 
-Pour lancer la partie
+Pour lancer la partie client, se placer le dossier `client` et taper la commande `npm start`.  
+Puis cliquer sur l'adresse du site en l
