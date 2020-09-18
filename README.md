@@ -14,4 +14,10 @@ Server:
 - Token utils: permet d'effectuer des opérations sur les tokens
 - bcrypt : permet d'utiliser des fonctions de hashage pour le password
 - cors : utile pour desactiver les restrictions cors sur les fetch api
-- mongodb et mongoose : connection à la bdd mongoDB 
+- mongodb et mongoose : connection à la bdd mongoDB sur mongoAtlas
+- node-sass et sass-loader : permet de compiler Sass en CSS
+
+-----------------
+## Lancement
+
+Pour lancer la p
