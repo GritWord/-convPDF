@@ -29,4 +29,10 @@ Puis cliquer sur l'adresse du site en local qui est donnée.
 
 ## Principe
 
-Ce site a pour objectif de faire découvrir le monde des cryptommonaies et de la blockchain à l'utilisateur. Il intègre également un petit 'jeux de trading' pour impliquer l'utilisateur dans cet univer
+Ce site a pour objectif de faire découvrir le monde des cryptommonaies et de la blockchain à l'utilisateur. Il intègre également un petit 'jeux de trading' pour impliquer l'utilisateur dans cet univers et lui permettre de tester ses capacités de trader.  
+
+### Page d'accueil
+
+Simple accueil du site.  
+
+### Page C
