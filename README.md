@@ -35,4 +35,6 @@ Ce site a pour objectif de faire découvrir le monde des cryptommonaies et de la
 
 Simple accueil du site.  
 
-### Page C
+### Page Comprendre
+
+Cette page contient des cours et informations utiles à la compréhension des cryptos, divi
