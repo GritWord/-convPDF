@@ -37,4 +37,8 @@ Simple accueil du site.
 
 ### Page Comprendre
 
-Cette page contient des cours et informations utiles à la compréhension des cryptos, divi
+Cette page contient des cours et informations utiles à la compréhension des cryptos, divisé en deux parties : les __cryptomonnaies__ et la __blockchain__.  
+
+### Page Graphiques
+
+Cette page permet de visualiser les prix e
