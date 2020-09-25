@@ -45,4 +45,6 @@ Cette page permet de visualiser les prix et cours des cryptomonnaies les plus im
 
 ### Page Wallet
 
-Ici, l'utilisateur pourra accèder à son compte utilisateur. Il peut également accéder à une autr
+Ici, l'utilisateur pourra accèder à son compte utilisateur. Il peut également accéder à une autre page pour enregistrer ses identifiants si cela n'a pas déjà été fait.
+
+Après avoir rentré ses identifiants, il acc
