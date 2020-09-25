@@ -41,4 +41,8 @@ Cette page contient des cours et informations utiles à la compréhension des cr
 
 ### Page Graphiques
 
-Cette page permet de visualiser les prix et cours des cryptomonnaies les plus importantes. Les informations sont fournies par [CoinMarketCap](https://co
+Cette page permet de visualiser les prix et cours des cryptomonnaies les plus importantes. Les informations sont fournies par [CoinMarketCap](https://coinmarketcap.com/).  
+
+### Page Wallet
+
+Ici, l'utilisateur pourra accèder à son compte utilisateur. Il peut également accéder à une autr
