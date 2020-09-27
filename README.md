@@ -51,4 +51,6 @@ Après avoir rentré ses identifiants, il accède à une page personnelle où so
 
 * __Valeur totale__ est ce que possède réellement l'utilisateur, c'est à dire la valeur de ses cryptos et de ses dollars, en temps réel et calculé en dollars.
 * __Monnaie disponible__ est la quantité en dollars que l'utilisateur a à disposition. Cette valeur ne change que s'il achète des cryptos ou en vend.
-* __Cryptos disponibles__ est la liste de toutes les cryptos que l'utilisateur a en sa pos
+* __Cryptos disponibles__ est la liste de toutes les cryptos que l'utilisateur a en sa possession, ainsi que leur quantité.
+
+L'objectif est donc d'avoir une quantité __Valeur totale__ la plus grande possible, en ache
