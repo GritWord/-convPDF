@@ -53,4 +53,4 @@ Après avoir rentré ses identifiants, il accède à une page personnelle où so
 * __Monnaie disponible__ est la quantité en dollars que l'utilisateur a à disposition. Cette valeur ne change que s'il achète des cryptos ou en vend.
 * __Cryptos disponibles__ est la liste de toutes les cryptos que l'utilisateur a en sa possession, ainsi que leur quantité.
 
-L'objectif est donc d'avoir une quantité __Valeur totale__ la plus grande possible, en ache
+L'objectif est donc d'avoir une quantité __Valeur totale__ la plus grande possible, en achetant au prix le plus bas et en revendant au plus haut les cryptos dans la partie `Trading` situé en dessous des possessions.
