@@ -60,4 +60,4 @@ L'objectif est donc d'avoir une quantité __Valeur totale__ la plus grande possi
 Petite description du contexte de ce site.
 
 
-bcrypt pose problème pour le deploiement sur 
+bcrypt pose problème pour le deploiement sur heroku. Pour avoir toutes les fonctionnalités il faut donc l'utiliser en local
