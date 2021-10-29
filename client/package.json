@@ -38,4 +38,10 @@
     "eslint-plugin-vue": "^7.0.0-0",
     "lint-staged": "^9.5.0"
   },
-  "gitHoo
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git a
