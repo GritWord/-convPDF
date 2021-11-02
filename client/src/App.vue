@@ -8,4 +8,6 @@
           >
         </h1>
         <div class="burger"></div>
-      <
+      </header>
+      <div class="main-nav" id="mainnav">
+        <router-link class="main-tab" :to="{ name: 'Home' }"
