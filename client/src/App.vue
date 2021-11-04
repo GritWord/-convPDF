@@ -13,3 +13,8 @@
         <router-link class="main-tab" :to="{ name: 'Home' }">Home</router-link>
         <router-link class="main-tab" :to="{ name: 'comprendre' }"
           >Comprendre</router-link
+        >
+        <router-link class="main-tab" :to="{ name: 'graphiques' }"
+          >Graphiques</router-link
+        >
+ 
