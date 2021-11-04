@@ -10,4 +10,6 @@
         <div class="burger"></div>
       </header>
       <div class="main-nav" id="mainnav">
-        <router-link class="main-tab" :to="{ name: 'Home' }"
+        <router-link class="main-tab" :to="{ name: 'Home' }">Home</router-link>
+        <router-link class="main-tab" :to="{ name: 'comprendre' }"
+          >Comprendre</router-link
