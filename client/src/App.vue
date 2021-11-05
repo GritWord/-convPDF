@@ -17,4 +17,7 @@
         <router-link class="main-tab" :to="{ name: 'graphiques' }"
           >Graphiques</router-link
         >
- 
+        <router-link class="main-tab" :to="{ name: 'wallet' }"
+          >Wallet</router-link
+        >
+       
