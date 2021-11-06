@@ -20,4 +20,7 @@
         <router-link class="main-tab" :to="{ name: 'wallet' }"
           >Wallet</router-link
         >
-       
+        <router-link class="main-tab" :to="{ name: 'a_propos' }"
+          >A propos</router-link
+        >
+     
