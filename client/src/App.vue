@@ -23,4 +23,7 @@
         <router-link class="main-tab" :to="{ name: 'a_propos' }"
           >A propos</router-link
         >
-     
+      </div>
+    </div>
+    <div class="burger-nav" id="burgernav">
+      <router-link tag="li" class="burger-tab" :to="{ n
