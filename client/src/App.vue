@@ -29,4 +29,8 @@
       <router-link tag="li" class="burger-tab" :to="{ name: 'Home' }"
         >Home</router-link
       >
-      <router-link tag="li" class="burger-tab" :to="{ name: 'comprendre'
+      <router-link tag="li" class="burger-tab" :to="{ name: 'comprendre' }"
+        >Comprendre</router-link
+      >
+      <router-link tag="li" class="burger-tab" :to="{ name: 'graphiques' }"
+ 
