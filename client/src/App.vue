@@ -26,4 +26,7 @@
       </div>
     </div>
     <div class="burger-nav" id="burgernav">
-      <router-link tag="li" class="burger-tab" :to="{ n
+      <router-link tag="li" class="burger-tab" :to="{ name: 'Home' }"
+        >Home</router-link
+      >
+      <router-link tag="li" class="burger-tab" :to="{ name: 'comprendre'
