@@ -35,4 +35,7 @@
       <router-link tag="li" class="burger-tab" :to="{ name: 'graphiques' }"
         >Graphiques</router-link
       >
-      <router-link tag="li" class="burger-tab" :to="{ name: 
+      <router-link tag="li" class="burger-tab" :to="{ name: 'wallet' }"
+        >Wallet</router-link
+      >
+      <router-link tag="li" class="burger-tab" :to="{ name: 'a_propos' }"
