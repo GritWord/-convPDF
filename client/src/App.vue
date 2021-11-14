@@ -48,3 +48,11 @@
 
 <script>
 export default {
+  name: 'App',
+  data () {
+    return {
+      token: false
+    }
+  },
+  mounted () {
+    const burger = document.que
