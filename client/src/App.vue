@@ -39,3 +39,12 @@
         >Wallet</router-link
       >
       <router-link tag="li" class="burger-tab" :to="{ name: 'a_propos' }"
+        >A propos</router-link
+      >
+    </div>
+    <router-view />
+  </div>
+</template>
+
+<script>
+export default {
