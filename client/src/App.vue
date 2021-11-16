@@ -67,4 +67,8 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?fa
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+#mainnav a.router-link-exact-active {
+  color: #bdbdbd;
+}
+@import "../src/css/main
