@@ -61,4 +61,10 @@ export default {
       mainnav.classList.toggle('active')
       burger.classList.toggle('active')
     })
-    this.t
+    this.token = localStorage.getItem('token')
+  }
+}
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?fa
