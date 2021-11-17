@@ -71,4 +71,5 @@ export default {
 #mainnav a.router-link-exact-active {
   color: #bdbdbd;
 }
-@import "../src/css/main
+@import "../src/css/main.css";
+</style>
