@@ -156,3 +156,127 @@ h3 {
       height: 4px;
       background: #000000;
       border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(255,101,47,.2);
+      transition: all .5s ease-in-out;
+    }
+    .burger::before {
+      transform: translateY(-10px);
+    }
+    .burger::after {
+      transform: translateY(10px);
+    }
+    /*#region AnimationBurgerButton*/
+    .burger.active{
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+      }
+      .burger.active::before {
+        transform: rotate(45deg) translate(35px, -35px);
+        
+      }
+      .burger.active::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+        
+      }
+      /*#endregion AnimationBurgerButton*/
+      /*#endregion BurgerButton*/
+    .main-nav {
+        display: none;
+    }
+
+    /*#region NavigationBurger*/
+    .burger-nav.active {
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        font-size: 100%;
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .burger-tab {
+        font-size: 1em;
+    font-weight: 300;
+    color: #000;
+    margin-left: 4.5em;
+    text-decoration: none;
+    border-bottom: 6px solid transparent;
+    }
+    
+    .burger-tab.active {
+        color: #BDBDBD;
+    }
+    /*#endregion NavigationBurger*/
+}    
+    
+/*#region Cours*/
+.cours {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cours_gauche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 3em;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+}
+
+.cours_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 3em;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+}
+/*#endregion Cours*/
+/*#region ImagesComprendre*/
+.imgBlockchain {
+    height: 45%;
+    width: 45%;
+
+    padding: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+.imgCryptocurrency {
+    height: 60%;
+    width: 60%;
+
+    padding: 1.2em;
+    border-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+
+.info-currency {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    border: 1px solid #494A45;
+    border-bottom: 6px solid #494A45;
+    margin: 2em;
+    margin-right: 4em;
+    border-radius: 1em;
+}
+
+.currency-name {
+    margin-left: 1em;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-decoration: none;
+    color:  #000;
+}
+
+.currency-price {
