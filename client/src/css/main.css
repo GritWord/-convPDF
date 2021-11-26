@@ -280,3 +280,56 @@ h3 {
 }
 
 .currency-price {
+    font-size: 1.5em;
+    font-weight: 200;
+    text-decoration: none;
+    color: #000;
+}
+
+.priceIncrease {
+    margin-left: 5em;
+    margin-right: 1em;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-decoration: none;
+    color: #6C9D64;
+}
+
+.priceDecrease {
+    margin-left: 5em;
+    margin-right: 1em;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-decoration: none;
+    color:#BB0014;
+}
+/*#endregion ImagesComprendre*/
+
+/*#region Wallet*/
+.wallet-block2 {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 500px;
+}
+
+.wallet-AchatRevente {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: #3E3E3E;
+    padding: 5%;
+    border: 6px solid #4D4D4F;
+    border-radius: 2em;
+    margin: 5%;
+}
+
+.cryptodispo {
+    list-style: none;
+    position: relative;
+    top: 25%;
+    color: white;
+}
+
+/*#endregion Wallet*/
