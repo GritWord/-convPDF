@@ -1,2 +1,4 @@
 const burger = document.querySelector('.burger')
-const
+const mainnav = document.getElementById('burgernav')
+burger.addEventListener('click', () => {
+  mainnav.classList.toggle('ac
