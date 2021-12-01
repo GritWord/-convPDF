@@ -6,4 +6,4 @@ burger.addEventListener('click', () => {
 const box = document.getElementById('bouton')
 burger.addEventListener('click', () => {
   box.classList.toggle('active')
-}
+})
