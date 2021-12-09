@@ -11,4 +11,7 @@ if (process.env.NODE_ENV === 'production') {
       )
     },
     registered () {
-      console.log('Servic
+      console.log('Service worker has been registered.')
+    },
+    cached () {
+      console.log('Content has been cached
