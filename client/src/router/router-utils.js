@@ -7,4 +7,9 @@ export function checkTokenBeforeEnter (to, from, next) {
         next()
       } else {
         next({
-          path: '/porte_monnai
+          path: '/porte_monnaie',
+          query: { redirect: to.fullPath }
+        })
+      }
+    })
+}
