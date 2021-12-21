@@ -12,4 +12,12 @@
       <img
         class="imgCryptocurrency"
         src="../images/cryptocurrency.png"
-        alt="i
+        alt="image Currency"
+      />
+      <figcaption>Cryptomonnaies</figcaption>
+    </router-link>
+  </div>
+</template>
+
+<script>
+export defau
