@@ -8,4 +8,8 @@
       />
       <figcaption>Blockchain</figcaption>
     </router-link>
-    <router-link class="cours_dro
+    <router-link class="cours_droite" to="/cours/crypto">
+      <img
+        class="imgCryptocurrency"
+        src="../images/cryptocurrency.png"
+        alt="i
