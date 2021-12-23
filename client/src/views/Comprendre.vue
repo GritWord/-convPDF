@@ -20,4 +20,9 @@
 </template>
 
 <script>
-export defau
+export default {
+  name: 'Comprendre'
+}
+</script>
+
+<style></style>
