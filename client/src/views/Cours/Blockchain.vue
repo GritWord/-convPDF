@@ -7,4 +7,6 @@
     central de contrôle (définition de Blockchain France). Elle est la
     technologie au coeur du Web Decentralisé et de son corollaire, la
     finance décentralisée. Par extension, une blockchain constitue une
-    base de don
+    base de données qui contient l’historique de tous les échanges
+    effectués entre ses utilisateurs depuis sa création. Cette base de
+ 
