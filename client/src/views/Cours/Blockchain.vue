@@ -9,4 +9,5 @@
     finance décentralisée. Par extension, une blockchain constitue une
     base de données qui contient l’historique de tous les échanges
     effectués entre ses utilisateurs depuis sa création. Cette base de
- 
+    données est sécurisée et distribuée : elle est partagée par ses
+    différents utilisateurs, sa
