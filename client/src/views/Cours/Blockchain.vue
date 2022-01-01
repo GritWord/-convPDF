@@ -10,4 +10,6 @@
     base de données qui contient l’historique de tous les échanges
     effectués entre ses utilisateurs depuis sa création. Cette base de
     données est sécurisée et distribuée : elle est partagée par ses
-    différents utilisateurs, sa
+    différents utilisateurs, sans intermédiaire, ce qui permet à chacun de
+    vérifier la validité de la chaîne. Il existe des blockchains
+   
