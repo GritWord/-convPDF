@@ -12,4 +12,5 @@
     données est sécurisée et distribuée : elle est partagée par ses
     différents utilisateurs, sans intermédiaire, ce qui permet à chacun de
     vérifier la validité de la chaîne. Il existe des blockchains
-   
+    publiques, ouvertes à tous, et des blockchains privées, dont l’accès
+    et l’utilisation sont limitées à un
