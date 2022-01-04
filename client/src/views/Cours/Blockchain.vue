@@ -13,4 +13,6 @@
     différents utilisateurs, sans intermédiaire, ce qui permet à chacun de
     vérifier la validité de la chaîne. Il existe des blockchains
     publiques, ouvertes à tous, et des blockchains privées, dont l’accès
-    et l’utilisation sont limitées à un
+    et l’utilisation sont limitées à un certain nombre d’acteurs. Une
+    blockchain publique peut donc être assimilée à un grand livre
+    compta
