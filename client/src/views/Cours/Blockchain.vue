@@ -15,4 +15,5 @@
     publiques, ouvertes à tous, et des blockchains privées, dont l’accès
     et l’utilisation sont limitées à un certain nombre d’acteurs. Une
     blockchain publique peut donc être assimilée à un grand livre
-    compta
+    comptable public, anonyme et infalsifiable. Comme l’écrit le
+    mathématicien Jean-Paul Delahaye, il faut 
