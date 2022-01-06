@@ -16,4 +16,6 @@
     et l’utilisation sont limitées à un certain nombre d’acteurs. Une
     blockchain publique peut donc être assimilée à un grand livre
     comptable public, anonyme et infalsifiable. Comme l’écrit le
-    mathématicien Jean-Paul Delahaye, il faut 
+    mathématicien Jean-Paul Delahaye, il faut s’imaginer « un très grand
+    cahier, que tout le monde peut lire librement et gratuitement, sur
+    lequel tout l
