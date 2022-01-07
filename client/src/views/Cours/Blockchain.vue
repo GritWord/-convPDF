@@ -18,4 +18,7 @@
     comptable public, anonyme et infalsifiable. Comme l’écrit le
     mathématicien Jean-Paul Delahaye, il faut s’imaginer « un très grand
     cahier, que tout le monde peut lire librement et gratuitement, sur
-    lequel tout l
+    lequel tout le monde peut écrire, mais qui est impossible à effacer et
+    indestructible. »
+  </p>
+  <h3 class="cours-soustitre">
