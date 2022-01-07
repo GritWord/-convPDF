@@ -21,4 +21,6 @@
     lequel tout le monde peut écrire, mais qui est impossible à effacer et
     indestructible. »
   </p>
-  <h3 class="cours-soustitre">
+  <h3 class="cours-soustitre">Situer la blockchain</h3>
+  <p class="cours-paragraphe">
+    La première blockchain est apparue en 200
