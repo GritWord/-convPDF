@@ -23,4 +23,6 @@
   </p>
   <h3 class="cours-soustitre">Situer la blockchain</h3>
   <p class="cours-paragraphe">
-    La première blockchain est apparue en 200
+    La première blockchain est apparue en 2008 avec la monnaie numérique
+    bitcoin, développée par un inconnu se présentant sous le pseudonyme
+    Satoshi Na
