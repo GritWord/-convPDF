@@ -25,4 +25,6 @@
   <p class="cours-paragraphe">
     La première blockchain est apparue en 2008 avec la monnaie numérique
     bitcoin, développée par un inconnu se présentant sous le pseudonyme
-    Satoshi Na
+    Satoshi Nakamoto. Elle en est l’architecture sous-jacente. Si
+    blockchain et bitcoin ont été construits ensemble, aujourd’hui de
+    
