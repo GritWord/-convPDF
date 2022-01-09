@@ -28,4 +28,8 @@
     Satoshi Nakamoto. Elle en est l’architecture sous-jacente. Si
     blockchain et bitcoin ont été construits ensemble, aujourd’hui de
     nombreux acteurs (entreprises, gouvernements, etc) envisagent
-    l’utilisation de la technologie blockchain pour d’autres cas que 
+    l’utilisation de la technologie blockchain pour d’autres cas que la
+    monnaie numérique.
+  </p>
+  <h3 class="cours-soustitre">Comment ça marche ?</h3>
+  <p class=
