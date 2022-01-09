@@ -27,4 +27,5 @@
     bitcoin, développée par un inconnu se présentant sous le pseudonyme
     Satoshi Nakamoto. Elle en est l’architecture sous-jacente. Si
     blockchain et bitcoin ont été construits ensemble, aujourd’hui de
-    
+    nombreux acteurs (entreprises, gouvernements, etc) envisagent
+    l’utilisation de la technologie blockchain pour d’autres cas que 
