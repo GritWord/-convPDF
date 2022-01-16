@@ -34,4 +34,5 @@
   <h3 class="cours-soustitre">Comment ça marche ?</h3>
   <p class="cours-paragraphe">
     Toute blockchain publique fonctionne nécessairement avec une monnaie
-    ou u
+    ou un token (jeton) programmable. Bitcoin est un exemple de monnaie
+    programmable. Les transactions effectuées entre les util
