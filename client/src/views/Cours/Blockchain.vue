@@ -32,4 +32,6 @@
     monnaie numérique.
   </p>
   <h3 class="cours-soustitre">Comment ça marche ?</h3>
-  <p class=
+  <p class="cours-paragraphe">
+    Toute blockchain publique fonctionne nécessairement avec une monnaie
+    ou u
