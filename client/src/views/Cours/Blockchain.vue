@@ -35,4 +35,6 @@
   <p class="cours-paragraphe">
     Toute blockchain publique fonctionne nécessairement avec une monnaie
     ou un token (jeton) programmable. Bitcoin est un exemple de monnaie
-    programmable. Les transactions effectuées entre les util
+    programmable. Les transactions effectuées entre les utilisateurs du
+    réseau sont regroupées par blocs. Chaque bloc est validé par les
+    noeuds du rés
