@@ -37,4 +37,5 @@
     ou un token (jeton) programmable. Bitcoin est un exemple de monnaie
     programmable. Les transactions effectuées entre les utilisateurs du
     réseau sont regroupées par blocs. Chaque bloc est validé par les
-    noeuds du rés
+    noeuds du réseau appelés les “mineurs”, selon des techniques qui
+    dépendent du type de blockchain. Dans la blockchain
