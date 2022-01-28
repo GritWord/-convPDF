@@ -40,4 +40,6 @@
     noeuds du réseau appelés les “mineurs”, selon des techniques qui
     dépendent du type de blockchain. Dans la blockchain du bitcoin cette
     technique est appelée le “Proof-of-Work”, preuve de travail, et
-    consiste en la résolut
+    consiste en la résolution de problèmes algorithmiques. Une fois le
+    bloc validé, il est horodaté et ajouté à la chaîne de blocs. La
+    t
