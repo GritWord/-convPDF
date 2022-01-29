@@ -42,4 +42,5 @@
     technique est appelée le “Proof-of-Work”, preuve de travail, et
     consiste en la résolution de problèmes algorithmiques. Une fois le
     bloc validé, il est horodaté et ajouté à la chaîne de blocs. La
-    t
+    transaction est alors visible pour le récepteur ainsi que l’ensemble
+    du réseau Ce processus prend un certain temps sel
