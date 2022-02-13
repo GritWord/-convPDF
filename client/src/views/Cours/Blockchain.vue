@@ -43,4 +43,5 @@
     consiste en la résolution de problèmes algorithmiques. Une fois le
     bloc validé, il est horodaté et ajouté à la chaîne de blocs. La
     transaction est alors visible pour le récepteur ainsi que l’ensemble
-    du réseau Ce processus prend un certain temps sel
+    du réseau Ce processus prend un certain temps selon la blockchain dont
+    on parle (environ une dizaine de minutes pour bitcoin, 15 secondes
