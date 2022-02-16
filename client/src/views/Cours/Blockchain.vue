@@ -45,3 +45,8 @@
     transaction est alors visible pour le récepteur ainsi que l’ensemble
     du réseau Ce processus prend un certain temps selon la blockchain dont
     on parle (environ une dizaine de minutes pour bitcoin, 15 secondes
+    pour Ethereum)
+  </p>
+  <h3 class="cours-soustitre">Le potentiel de la blockchain</h3>
+  <p class="cours-paragraphe">
+    Le caractère décentr
