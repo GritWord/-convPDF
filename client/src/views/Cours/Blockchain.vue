@@ -50,4 +50,6 @@
   <h3 class="cours-soustitre">Le potentiel de la blockchain</h3>
   <p class="cours-paragraphe">
     Le caractère décentralisé de la blockchain, couplé avec sa sécurité et
-    sa transparence, promet des applications bien plus larges que
+    sa transparence, promet des applications bien plus larges que le
+    domaine monétaire. On peut classer l’utilisation de la blockchain en
+    trois catégories : Les applica
