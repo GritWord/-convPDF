@@ -52,4 +52,6 @@
     Le caractère décentralisé de la blockchain, couplé avec sa sécurité et
     sa transparence, promet des applications bien plus larges que le
     domaine monétaire. On peut classer l’utilisation de la blockchain en
-    trois catégories : Les applica
+    trois catégories : Les applications pour le transfert d’actifs
+    (utilisation monétaire, mais pas uniquement : titres, votes, actions,
+    obligati
