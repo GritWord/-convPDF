@@ -54,4 +54,5 @@
     domaine monétaire. On peut classer l’utilisation de la blockchain en
     trois catégories : Les applications pour le transfert d’actifs
     (utilisation monétaire, mais pas uniquement : titres, votes, actions,
-    obligati
+    obligations…). Les applications de la blockchain en tant que registre
+    : elle assure ainsi une meilleure traçabilité 
