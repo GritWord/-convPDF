@@ -55,4 +55,6 @@
     trois catégories : Les applications pour le transfert d’actifs
     (utilisation monétaire, mais pas uniquement : titres, votes, actions,
     obligations…). Les applications de la blockchain en tant que registre
-    : elle assure ainsi une meilleure traçabilité 
+    : elle assure ainsi une meilleure traçabilité des produits et des
+    actifs. Les smart contracts : il s’agit de programmes autonomes qui
+    exécutent automati
