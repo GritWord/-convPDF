@@ -58,4 +58,6 @@
     : elle assure ainsi une meilleure traçabilité des produits et des
     actifs. Les smart contracts : il s’agit de programmes autonomes qui
     exécutent automatiquement les conditions et termes d’un contrat, sans
-    nécessiter d’intervention humaine une fois démarrés. Les c
+    nécessiter d’intervention humaine une fois démarrés. Les champs
+    d’exploitation sont immenses : banques, assurance, santé et industrie
+    pharmaceutique, suppl
