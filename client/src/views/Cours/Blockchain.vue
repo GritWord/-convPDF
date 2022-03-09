@@ -60,4 +60,5 @@
     exécutent automatiquement les conditions et termes d’un contrat, sans
     nécessiter d’intervention humaine une fois démarrés. Les champs
     d’exploitation sont immenses : banques, assurance, santé et industrie
-    pharmaceutique, suppl
+    pharmaceutique, supply chain de nombreux secteurs (agroalimentaire,
+    luxe, commerce international, distribution, vi
