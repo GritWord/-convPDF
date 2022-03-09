@@ -61,4 +61,6 @@
     nécessiter d’intervention humaine une fois démarrés. Les champs
     d’exploitation sont immenses : banques, assurance, santé et industrie
     pharmaceutique, supply chain de nombreux secteurs (agroalimentaire,
-    luxe, commerce international, distribution, vi
+    luxe, commerce international, distribution, vins, aéronautique,
+    automobile…), industrie musicale, énergie, immobilier, vote… Surtout,
+    la blockchain ou
