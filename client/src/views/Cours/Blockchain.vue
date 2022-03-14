@@ -63,4 +63,5 @@
     pharmaceutique, supply chain de nombreux secteurs (agroalimentaire,
     luxe, commerce international, distribution, vins, aéronautique,
     automobile…), industrie musicale, énergie, immobilier, vote… Surtout,
-    la blockchain ou
+    la blockchain ouvre la voie d’un nouveau web, le web décentralisé, et
+    d’une nouvelle économie numérique, la token économie. Pour comprendr
