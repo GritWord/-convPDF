@@ -64,4 +64,6 @@
     luxe, commerce international, distribution, vins, aéronautique,
     automobile…), industrie musicale, énergie, immobilier, vote… Surtout,
     la blockchain ouvre la voie d’un nouveau web, le web décentralisé, et
-    d’une nouvelle économie numérique, la token économie. Pour comprendr
+    d’une nouvelle économie numérique, la token économie. Pour comprendre
+    leurs enjeux, il est crucial d’éviter les caricatures au sujet des
+    cryptoactifs, qui sont au coeur de cette ré
