@@ -66,4 +66,6 @@
     la blockchain ouvre la voie d’un nouveau web, le web décentralisé, et
     d’une nouvelle économie numérique, la token économie. Pour comprendre
     leurs enjeux, il est crucial d’éviter les caricatures au sujet des
-    cryptoactifs, qui sont au coeur de cette ré
+    cryptoactifs, qui sont au coeur de cette révolution. Bien évidemment,
+    ces promesses ne sont pas exemptes de défis, qu’ils soient
+    économiques, juridi
