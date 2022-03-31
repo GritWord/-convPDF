@@ -68,4 +68,15 @@
     leurs enjeux, il est crucial d’éviter les caricatures au sujet des
     cryptoactifs, qui sont au coeur de cette révolution. Bien évidemment,
     ces promesses ne sont pas exemptes de défis, qu’ils soient
-    économiques, juridi
+    économiques, juridiques, de gouvernance, ou encore écologiques.
+  </p>
+</template>
+
+<script>
+export default {
+  name: 'Blockchain'
+}
+</script>
+
+<style>
+.c
