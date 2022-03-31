@@ -79,4 +79,11 @@ export default {
 </script>
 
 <style>
-.c
+.cours-titre {
+  display: flex;
+  justify-content: center;
+  color: #1b3e8f;
+}
+
+.cours-soustitre {
+  margi
