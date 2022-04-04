@@ -94,4 +94,6 @@ export default {
 .cours-paragraphe {
   margin: 3%;
   margin-top: 2%;
-  font-size: 
+  font-size: 1.2em;
+}
+</style>
