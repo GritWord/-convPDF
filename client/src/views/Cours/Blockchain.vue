@@ -86,4 +86,12 @@ export default {
 }
 
 .cours-soustitre {
-  margi
+  margin-left: 3%;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+
+.cours-paragraphe {
+  margin: 3%;
+  margin-top: 2%;
+  font-size: 
