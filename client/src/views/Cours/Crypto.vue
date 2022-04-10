@@ -1,3 +1,5 @@
 <template>
   <h1 class="cours-titre">Qu’est-ce qu’une crypto monnaie ?</h1>
-  <p class="cours
+  <p class="cours-paragraphe">
+    On désigne par crypto monnaie à la fois une monnaie cryptographique et
+    un système de paiement de pair à p
