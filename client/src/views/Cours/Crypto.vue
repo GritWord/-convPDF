@@ -5,4 +5,6 @@
     un système de paiement de pair à pair. Ces monnaies numériques sont
     donc des monnaies virtuelles dans le sens où ces dernières sont
     caractérisées par une absence de support physique : ni pièces ni
-    billets et les paiements par chèque ou carte bancaire ne son
+    billets et les paiements par chèque ou carte bancaire ne sont pas
+    possibles non plus. Ce sont des monnaies alternatives qui n’ont de
+    cours légal dans aucun pays du gl
