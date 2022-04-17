@@ -7,4 +7,6 @@
     caractérisées par une absence de support physique : ni pièces ni
     billets et les paiements par chèque ou carte bancaire ne sont pas
     possibles non plus. Ce sont des monnaies alternatives qui n’ont de
-    cours légal dans aucun pays du gl
+    cours légal dans aucun pays du globe. Leur valeur n’est pas indexée
+    sur le cours de l’or ni sur celle des devises classiques et elles ne
+    s
