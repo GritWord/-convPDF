@@ -9,4 +9,5 @@
     possibles non plus. Ce sont des monnaies alternatives qui n’ont de
     cours légal dans aucun pays du globe. Leur valeur n’est pas indexée
     sur le cours de l’or ni sur celle des devises classiques et elles ne
-    s
+    sont pas non plus régulées par un organe central ou des institutions
+    financières. Il n’y a pas de b
