@@ -4,4 +4,5 @@
     On désigne par crypto monnaie à la fois une monnaie cryptographique et
     un système de paiement de pair à pair. Ces monnaies numériques sont
     donc des monnaies virtuelles dans le sens où ces dernières sont
-    caractérisées 
+    caractérisées par une absence de support physique : ni pièces ni
+    billets et les paiements par chèque ou carte bancaire ne son
