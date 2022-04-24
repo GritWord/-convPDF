@@ -10,4 +10,5 @@
     cours légal dans aucun pays du globe. Leur valeur n’est pas indexée
     sur le cours de l’or ni sur celle des devises classiques et elles ne
     sont pas non plus régulées par un organe central ou des institutions
-    financières. Il n’y a pas de b
+    financières. Il n’y a pas de banques centrales à leurs têtes. Et
+    pourtant, sécurité et transparence sont leurs principaux atouts ! 
