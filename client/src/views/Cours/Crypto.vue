@@ -11,4 +11,6 @@
     sur le cours de l’or ni sur celle des devises classiques et elles ne
     sont pas non plus régulées par un organe central ou des institutions
     financières. Il n’y a pas de banques centrales à leurs têtes. Et
-    pourtant, sécurité et transparence sont leurs principaux atouts ! 
+    pourtant, sécurité et transparence sont leurs principaux atouts ! Car
+    en effet la cryptographie sécurise les transactions qui sont toutes
+    vérifiées et 
