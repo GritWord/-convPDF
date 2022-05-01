@@ -13,4 +13,6 @@
     financières. Il n’y a pas de banques centrales à leurs têtes. Et
     pourtant, sécurité et transparence sont leurs principaux atouts ! Car
     en effet la cryptographie sécurise les transactions qui sont toutes
-    vérifiées et 
+    vérifiées et enregistrées dans un domaine public, assurant tout à la
+    fois confidentialité et authenticité, grâce à la technologie
+    
