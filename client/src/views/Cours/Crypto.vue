@@ -15,4 +15,16 @@
     en effet la cryptographie sécurise les transactions qui sont toutes
     vérifiées et enregistrées dans un domaine public, assurant tout à la
     fois confidentialité et authenticité, grâce à la technologie
-    
+    Blockchain.
+  </p>
+</template>
+
+<script>
+export default {
+  name: 'cryptomonnaies'
+}
+</script>
+
+<style>
+.cours-titre {
+  di
