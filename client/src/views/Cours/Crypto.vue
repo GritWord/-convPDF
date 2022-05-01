@@ -27,4 +27,12 @@ export default {
 
 <style>
 .cours-titre {
-  di
+  display: flex;
+  justify-content: center;
+  color: #1b3e8f;
+}
+
+.cours-soustitre {
+  margin-left: 3%;
+  margin-bottom: 1%;
+  margi
