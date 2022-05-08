@@ -35,4 +35,12 @@ export default {
 .cours-soustitre {
   margin-left: 3%;
   margin-bottom: 1%;
-  margi
+  margin-top: 5%;
+}
+
+.cours-paragraphe {
+  margin: 3%;
+  margin-top: 2%;
+  font-size: 1.2em;
+}
+</style>
