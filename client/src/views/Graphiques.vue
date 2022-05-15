@@ -11,4 +11,6 @@
         v-for="currency in currencies.slice(0, 11)"
         :key="currency.id"
       >
-        <p class="currency
+        <p class="currency-name">{{ currency.name }}</p>
+        <p class="currency-price">{{ currency.price }}</p>
+        <div v-if="curren
