@@ -13,4 +13,7 @@
       >
         <p class="currency-name">{{ currency.name }}</p>
         <p class="currency-price">{{ currency.price }}</p>
-        <div v-if="curren
+        <div v-if="currency.evolutionPrice >= 0">
+          <p class="priceIncrease">▲ {{ currency.evolutionPrice }} %</p>
+        </div>
+     
