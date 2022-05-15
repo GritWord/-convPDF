@@ -8,4 +8,7 @@
       </li>
       <li
         class="info-currency"
-    
+        v-for="currency in currencies.slice(0, 11)"
+        :key="currency.id"
+      >
+        <p class="currency
