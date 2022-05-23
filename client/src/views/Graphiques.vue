@@ -19,4 +19,14 @@
         <div v-else>
           <p class="priceDecrease">
             ▼ {{ Math.abs(currency.evolutionPrice) }} %
-      
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script>
+import { mapState } from 'vuex'
+export default {
+  na
