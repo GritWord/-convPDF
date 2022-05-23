@@ -16,4 +16,7 @@
         <div v-if="currency.evolutionPrice >= 0">
           <p class="priceIncrease">▲ {{ currency.evolutionPrice }} %</p>
         </div>
-     
+        <div v-else>
+          <p class="priceDecrease">
+            ▼ {{ Math.abs(currency.evolutionPrice) }} %
+      
