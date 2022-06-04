@@ -29,4 +29,10 @@
 <script>
 import { mapState } from 'vuex'
 export default {
-  na
+  name: 'Graphiques',
+
+  computed: mapState(['currencies']),
+
+  mounted () {
+    // Fetch de currencies
+    this.$
