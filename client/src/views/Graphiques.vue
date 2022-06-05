@@ -35,4 +35,9 @@ export default {
 
   mounted () {
     // Fetch de currencies
-    this.$
+    this.$store.dispatch('graphiques')
+  }
+}
+</script>
+
+<style></style>
