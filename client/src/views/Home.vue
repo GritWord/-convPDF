@@ -13,4 +13,8 @@
       nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
       felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-    
+    </p>
+    <figure class="troisLogos">
+      <img
+        class="logoEther"
+        src="../images/1200px-Eth
