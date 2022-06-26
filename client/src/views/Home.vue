@@ -17,4 +17,9 @@
     <figure class="troisLogos">
       <img
         class="logoEther"
-        src="../images/1200px-Eth
+        src="../images/1200px-Ethereum_logo_2014.svg.png"
+        alt="logo ethereum"
+      />
+      <img
+        class="logoBtc"
+        src="../images/Bitcoin
