@@ -22,4 +22,9 @@
       />
       <img
         class="logoBtc"
-        src="../images/Bitcoin
+        src="../images/Bitcoin.svg.png"
+        alt="logo bitcoin"
+      />
+      <img
+        class="logoRip"
+        src="../images/ripple-triskelion-512.pn
