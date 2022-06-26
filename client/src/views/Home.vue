@@ -27,4 +27,10 @@
       />
       <img
         class="logoRip"
-        src="../images/ripple-triskelion-512.pn
+        src="../images/ripple-triskelion-512.png"
+        alt="logo ripple"
+      />
+    </figure>
+    <p>Lorem ipsum dolor</p>
+  </div>
+  <footer class="main-footer">Quentin G
