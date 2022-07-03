@@ -33,4 +33,10 @@
     </figure>
     <p>Lorem ipsum dolor</p>
   </div>
-  <footer class="main-footer">Quentin G
+  <footer class="main-footer">Quentin GIBON & Lucas LEVY</footer>
+</div>
+</template>
+
+<script></script>
+
+<style></style>
