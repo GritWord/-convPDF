@@ -10,4 +10,8 @@
           required=""
           id="username"
           v-model="username"
-          autoc
+          autocomplete="off"
+        />
+        <label for="username">Username</label>
+      </div>
+      <div class=
