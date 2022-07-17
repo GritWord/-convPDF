@@ -28,4 +28,10 @@
       <button type="submit" class="subbutton">Se connecter</button>
     </form>
   </div>
-  <router-link
+  <router-link to="/signin" class='text-under'>S'enregistrer</router-link>
+</div>
+</template>
+
+<script>
+export default {
+  name: 'porte_monnai
