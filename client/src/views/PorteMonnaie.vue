@@ -14,4 +14,9 @@
         />
         <label for="username">Username</label>
       </div>
-      <div class=
+      <div class="user-box">
+        <input
+          name=""
+          id="paswword"
+          v-model="password"
+          type="
