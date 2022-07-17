@@ -19,4 +19,9 @@
           name=""
           id="paswword"
           v-model="password"
-          type="
+          type="password"
+          required=""
+          autocomplete="off"
+        />
+        <label>Password</label>
+      </div>
