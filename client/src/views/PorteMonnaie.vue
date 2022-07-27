@@ -42,4 +42,7 @@ export default {
     }
   },
   methods: {
-    sendCredenti
+    sendCredentials () {
+      const login = this.username
+      const password = this.password
+      this.$store.dispatch('login', { login, passw
