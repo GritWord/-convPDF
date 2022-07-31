@@ -45,4 +45,8 @@ export default {
     sendCredentials () {
       const login = this.username
       const password = this.password
-      this.$store.dispatch('login', { login, passw
+      this.$store.dispatch('login', { login, password })
+        .then(result => {
+          if (result === true) {
+            this.$router.push({
+        
