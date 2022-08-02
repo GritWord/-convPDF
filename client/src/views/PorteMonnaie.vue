@@ -53,4 +53,15 @@ export default {
               query: { redirect: '/wallet' }
             })
           } else {
-            window.alert
+            window.alert('Invalid credentials !')
+          }
+        })
+    }
+  }
+}
+</script>
+
+<style>
+.text-under {
+  position: absolute;
+ 
