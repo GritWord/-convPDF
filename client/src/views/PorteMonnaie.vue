@@ -49,4 +49,8 @@ export default {
         .then(result => {
           if (result === true) {
             this.$router.push({
-        
+              name: 'wallet',
+              query: { redirect: '/wallet' }
+            })
+          } else {
+            window.alert
