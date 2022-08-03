@@ -64,4 +64,10 @@ export default {
 <style>
 .text-under {
   position: absolute;
- 
+  top: 78%;
+  left: 47%;
+}
+
+.login-box {
+  font-family: sans-serif;
+  background: linear-gradient(
