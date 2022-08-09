@@ -70,4 +70,10 @@ export default {
 
 .login-box {
   font-family: sans-serif;
-  background: linear-gradient(
+  background: linear-gradient(#141e30, #243b55);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translat
