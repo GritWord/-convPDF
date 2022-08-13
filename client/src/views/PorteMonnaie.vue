@@ -90,4 +90,12 @@ export default {
 }
 
 .login-box .user-box {
-  position
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bot
