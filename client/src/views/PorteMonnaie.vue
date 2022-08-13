@@ -98,4 +98,10 @@ export default {
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
-  margin-bot
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .us
