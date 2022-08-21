@@ -111,3 +111,9 @@ export default {
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid
