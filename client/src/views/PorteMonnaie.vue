@@ -116,4 +116,13 @@ export default {
 }
 
 .login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display:
