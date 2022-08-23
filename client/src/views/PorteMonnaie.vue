@@ -125,4 +125,9 @@ export default {
 
 .login-box form a {
   position: relative;
-  display:
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transfo
