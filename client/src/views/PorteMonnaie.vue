@@ -130,4 +130,11 @@ export default {
   color: #03e9f4;
   font-size: 16px;
   text-decoration: none;
-  text-transfo
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+.subbutton {
