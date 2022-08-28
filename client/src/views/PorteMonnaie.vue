@@ -138,3 +138,8 @@ export default {
 }
 
 .subbutton {
+  border: 1.5px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  height: 2.25rem;
+  line-height: 1.25r
