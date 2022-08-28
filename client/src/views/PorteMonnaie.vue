@@ -142,4 +142,10 @@ export default {
   font-size: 16px;
   color: #fff;
   height: 2.25rem;
-  line-height: 1.25r
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  width: 15rem;
+  transition: all 0.25s;
+  background: #21364e;
+  
