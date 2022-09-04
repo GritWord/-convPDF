@@ -162,4 +162,9 @@ export default {
   background: #21364e;
 }
 
-.subbutton:a
+.subbutton:active {
+  color: #21364e;
+  border: 1.5px solid #03e9f4;
+  background: #03e9f4;
+  transition: all 0.125s;
+}
