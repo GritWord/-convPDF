@@ -152,4 +152,14 @@ export default {
   order: 4;
   outline: 1px dashed transparent;
   outline-offset: 2px;
-  padding-left:
+  padding-left: 0;
+  border-radius: 10px;
+}
+
+.subbutton:hover {
+  color: #03e9f4;
+  border: 1.5px solid #03e9f4;
+  background: #21364e;
+}
+
+.subbutton:a
