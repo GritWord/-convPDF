@@ -168,3 +168,4 @@ export default {
   background: #03e9f4;
   transition: all 0.125s;
 }
+</style>
