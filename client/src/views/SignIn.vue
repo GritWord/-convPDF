@@ -6,4 +6,10 @@
       <div class="user-box">
         <input
           type="text"
-          name="
+          name=""
+          required=""
+          id="regusername"
+          v-model="regusername"
+          autocomplete="off"
+        />
+        
