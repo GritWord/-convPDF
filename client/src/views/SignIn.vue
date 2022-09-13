@@ -12,4 +12,8 @@
           v-model="regusername"
           autocomplete="off"
         />
+        <label for="regusername">Username</label>
+      </div>
+      <div class="user-box">
+        <input
         
