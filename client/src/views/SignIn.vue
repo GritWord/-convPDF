@@ -16,4 +16,8 @@
       </div>
       <div class="user-box">
         <input
-        
+          name=""
+          id="regpassword"
+          v-model="regpassword"
+          type="password"
+         
