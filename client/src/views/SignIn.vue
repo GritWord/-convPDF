@@ -20,4 +20,8 @@
           id="regpassword"
           v-model="regpassword"
           type="password"
-         
+          required=""
+          autocomplete="off"
+        />
+        <label>Password</label>
+      </div
