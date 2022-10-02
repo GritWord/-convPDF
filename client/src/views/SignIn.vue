@@ -35,4 +35,11 @@
 <script>
 export default {
   name: 'signin',
-  data 
+  data () {
+    return {
+      username: undefined,
+      password: undefined
+    }
+  },
+  methods: {
+    registerCredentials 
