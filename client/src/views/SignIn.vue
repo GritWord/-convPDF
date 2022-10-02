@@ -42,4 +42,8 @@ export default {
     }
   },
   methods: {
-    registerCredentials 
+    registerCredentials () {
+      const login = this.regusername
+      const password = this.regpassword
+      console.log(login)
+      this
