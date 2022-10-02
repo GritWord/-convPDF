@@ -46,4 +46,12 @@ export default {
       const login = this.regusername
       const password = this.regpassword
       console.log(login)
-      this
+      this.$store.dispatch('registerUser', { login, password })
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
