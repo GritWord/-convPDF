@@ -323,3 +323,50 @@ svg {
   width: 100%;
   padding: 10px 0;
   background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.button-achat {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #007c00;
+  width: 150px;
+  height: 35px;
+  border-radius: 15px;
+  color: white;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px var(--light) inset;
+  margin-bottom: 60px;
+}
+
+.button-vendre {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #c61501;
+  width: 150px;
+  height: 35px;
+  border-radius: 15px;
+  color: white;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px var(--light) inset;
+  margin-bottom: 15px;
+}
+
+/*#endregion Trading*/
+</style>
