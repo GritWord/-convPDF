@@ -118,3 +118,107 @@ export default {
     this.login = this.$store.state.user
 
     this.$store.dispatch('cryptoTrade', this.login)
+      .then(data => {
+        this.holdings = data.holdings
+        this.holdingDolls = data.holdingDolls
+      })
+  },
+
+  methods: {
+    deconnect () {
+      localStorage.removeItem('token')
+      this.$router.push({
+        name: 'porte_monnaie',
+        query: { redirect: '/porte_monnaie' }
+      })
+    },
+
+    acheter () {
+      if (this.holdingDolls >= this.achat) {
+        this.holdings[
+          this.holdings.indexOf(
+            this.holdings.find((crypto) => crypto.name === this.cryptoSelected)
+          )
+        ].somme +=
+          this.achat /
+          this.tradeCurrencies.find((crypto) => crypto.name === this.cryptoSelected)
+            .price
+        this.holdingDolls -= this.achat
+        var newData = { holdings: this.holdings, holdingDolls: this.holdingDolls }
+        this.$store.dispatch('modifyUser', newData)
+          .then(window.location.reload())
+      } else {
+        alert("Erreur lors de l'achat")
+      }
+    },
+
+    vendre () {
+      const possessionEnCrypto = this.holdings.find(
+        (choixCrypto) => choixCrypto.name === this.cryptoSelected
+      ).somme
+      const venteEnCrypto =
+        this.vente /
+        this.tradeCurrencies.find((crypto) => crypto.name === this.cryptoSelected)
+          .price
+      if (venteEnCrypto <= possessionEnCrypto) {
+        this.holdings[
+          this.holdings.indexOf(
+            this.holdings.find((crypto) => crypto.name === this.cryptoSelected)
+          )
+        ].somme -= venteEnCrypto
+        this.holdingDolls += this.vente
+        var newData = { holdings: this.holdings, holdingDolls: this.holdingDolls }
+        this.$store.dispatch('modifyUser', newData)
+          .then(window.location.reload())
+      } else {
+        alert('Erreur lors de la vente')
+      }
+    }
+  }
+}
+</script>
+
+<style>
+.container {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  top: 150px;
+  left: 20%;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 420px;
+  width: 300px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
