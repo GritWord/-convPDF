@@ -222,3 +222,104 @@ export default {
   position: absolute;
   left: 20px;
   top: 15px;
+}
+
+.bar {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  height: 10px;
+  width: 250px;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0, 154, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 154, 217, 1) 0%,
+    rgba(217, 147, 0, 1) 65%,
+    rgba(255, 186, 0, 1) 100%
+  );
+  transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 210px;
+  transition: 0.4s ease-out;
+}
+
+.circle {
+  position: absolute;
+  top: 350px;
+  left: calc(80% - 20px);
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 1.7px;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 260;
+  transition: 0.6s ease-out;
+}
+
+/*#region Trading*/
+
+.box select {
+  background-color: #4d4d4f;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: none;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
