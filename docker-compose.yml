@@ -2,4 +2,9 @@ version: '3.5'
 
 services:
 
-  ser
+  server:
+    image: venom_api:latest
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_n
