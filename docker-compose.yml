@@ -21,4 +21,8 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./init-db/init-mongo.sh:/docker-entrypoint-
+      - ./init-db/init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+      MONG
