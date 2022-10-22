@@ -25,4 +25,10 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: admin
-      MONG
+      MONGO_INITDB_DATABASE: venom
+      DB_USER: venom
+      DB_PASS: venom
+      DB_NAME: venom
+
+  mongo-express:
+    image: m
