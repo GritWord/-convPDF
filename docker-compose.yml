@@ -31,4 +31,9 @@ services:
       DB_NAME: venom
 
   mongo-express:
-    image: m
+    image: mongo-express
+    restart: always
+    ports:
+      - 9000:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINU
