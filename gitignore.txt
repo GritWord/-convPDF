@@ -6,4 +6,11 @@
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
-!.
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Linux ###
+*~
+
+# temporary files which can be created if a proc
