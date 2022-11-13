@@ -38,4 +38,10 @@ Icon
 ._*
 
 # Files that might appear in the root of a volume
-.DocumentRe
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpres
