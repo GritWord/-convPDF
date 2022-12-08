@@ -106,4 +106,13 @@ typings/
 # Optional npm cache directory
 .npm
 
-# Optional eslint ca
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Opt
