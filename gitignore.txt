@@ -153,4 +153,10 @@ dist
 # FuseBox cache
 .fusebox/
 
-# Dyn
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode e
