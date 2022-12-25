@@ -159,4 +159,12 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode e
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+eht
