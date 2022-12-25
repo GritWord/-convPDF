@@ -167,4 +167,13 @@ dist
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
-eht
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCL
