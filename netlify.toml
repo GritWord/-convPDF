@@ -1,2 +1,6 @@
 [build]
-  # Dossier da
+  # Dossier dans lequel se placer avant le build
+  # C'est-à-dire celui avec le package.json du client
+  base = "client/"
+
+  # Dossier qui cont
