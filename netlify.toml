@@ -3,4 +3,7 @@
   # C'est-à-dire celui avec le package.json du client
   base = "client/"
 
-  # Dossier qui cont
+  # Dossier qui contient les fichiers html, CSS, JS, et autres assets (images, sons, vidéos,...)
+  publish = "dist/"
+
+  # Variables d'environment pour le
