@@ -6,4 +6,8 @@
   # Dossier qui contient les fichiers html, CSS, JS, et autres assets (images, sons, vidéos,...)
   publish = "dist/"
 
-  # Variables d'environment pour le
+  # Variables d'environment pour le build
+  environment = { VUE_APP_API_HOST = "https://cryptofun-docker.herokuapp.com" }
+
+  # Default build command.
+  command = "npm run bu
