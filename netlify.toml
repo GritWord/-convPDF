@@ -10,4 +10,4 @@
   environment = { VUE_APP_API_HOST = "https://cryptofun-docker.herokuapp.com" }
 
   # Default build command.
-  command = "npm run bu
+  command = "npm run build"
