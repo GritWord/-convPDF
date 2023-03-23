@@ -1,0 +1,38 @@
+
+{
+  "name": "cryptofun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinGib/cryptofun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinGib/cryptofun/issues"
+  },
+  "homepage": "https://github.com/QuentinGib/cryptofun#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.12.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "token-utils": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
