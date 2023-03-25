@@ -7,4 +7,6 @@ const mongoOptions = {
   useUnifiedTopology: true
 }
 
-module.exp
+module.exports = {
+    getConnection () {
+      const mongoUrl = process.env.MONGO_URL || process.env.MONGO_ATLAS_URL || defaultMongoUr
