@@ -9,4 +9,8 @@ const mongoOptions = {
 
 module.exports = {
     getConnection () {
-      const mongoUrl = process.env.MONGO_URL || process.env.MONGO_ATLAS_URL || defaultMongoUr
+      const mongoUrl = process.env.MONGO_URL || process.env.MONGO_ATLAS_URL || defaultMongoUrl
+      console.log(mongoUrl)
+      return mongoose.connect(encodeURI(mongoUrl), mongoOptions)
+    }
+}
