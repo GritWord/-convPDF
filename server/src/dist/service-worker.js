@@ -5,4 +5,6 @@
  * disable HTTP caching for this file too.
  * See https://goo.gl/nhQhGp
  *
- * The rest of the code is auto-generated. Please don't u
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your bui
