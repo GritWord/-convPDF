@@ -17,4 +17,7 @@ importScripts(
   "/precache-manifest.42ef6ae2ed837cb10e07abb78233d91e.js"
 );
 
-workbox.core.setCacheNameDetails({prefix:
+workbox.core.setCacheNameDetails({prefix: "client"});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITIN
