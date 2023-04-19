@@ -1,0 +1,28 @@
+
+const dotenv = require('dotenv')
+const express = require('express')
+const bodyParser = require('body-parser')
+const path = require('path')
+const cors = require('cors')
+const Connection = require('./connect.js')
+const app = express()
+app.use(cors())
+
+const router = require('./routes/index.js')
+
+dotenv.config()
+
+const port = process.env.PORT || 4000
+app.use(express.static(path.join(__dirname, 'dist')))
+app.use(bodyParser.json())
+
+app.use('/api/v1', router)
+// const { getConnectionToMongoDB } = require('./utils/db.js')
+
+/* getConnectionToMongoDB()
+  .then(({ db }) => {
+    console.log('OK')
+    insertDocuments(db, (err) => {
+      if (err) {
+        console.error(err)
+      }
