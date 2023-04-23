@@ -26,3 +26,17 @@ app.use('/api/v1', router)
       if (err) {
         console.error(err)
       }
+      console.log('OK inserted')
+    })
+  }).catch(error => {
+    console.error(error)
+  }) */
+
+Connection.getConnection()
+  .then(() => {
+    app.listen(port, () => {
+      console.log(`Example app listening at http://localhost:${port}`)
+    })
+  }).catch(error => {
+    console.error(error)
+  })
