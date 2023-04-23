@@ -7,4 +7,8 @@ function verifyToken (req, res, next) {
         // substring
         // const token = req.header('Authorization').substring(7)
         // replace
-        const token = req.header('Autho
+        const token = req.header('Authorization').replace('Bearer ', '')
+        tokenUtils.checkToken(token)
+        next()
+    } catch (error) {
+     
