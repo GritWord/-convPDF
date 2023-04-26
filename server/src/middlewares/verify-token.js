@@ -11,4 +11,9 @@ function verifyToken (req, res, next) {
         tokenUtils.checkToken(token)
         next()
     } catch (error) {
-     
+        res
+        .status(401)
+        .json({
+            success: false,
+            message: 'Invalid token'
+       
