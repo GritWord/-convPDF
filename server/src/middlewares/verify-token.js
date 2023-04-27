@@ -16,4 +16,8 @@ function verifyToken (req, res, next) {
         .json({
             success: false,
             message: 'Invalid token'
-       
+        })        
+    }
+}
+
+module.exports = verifyToken
