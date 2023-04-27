@@ -7,4 +7,10 @@ var User = require('./user-model.js')
 // Delete
 
 /**
- * Crée un utilisateur dans la base de donn
+ * Crée un utilisateur dans la base de données
+ * 
+ * @function
+ * @async
+ * 
+ * @param {import('./user-model').UserData} userData 
+ * @returns {Promise.<import('./u
