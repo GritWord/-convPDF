@@ -13,4 +13,9 @@ var User = require('./user-model.js')
  * @async
  * 
  * @param {import('./user-model').UserData} userData 
- * @returns {Promise.<import('./u
+ * @returns {Promise.<import('./user-model').UserMongooseDocument>}
+ */
+module.exports = {
+  createUser(userData) {
+    const user = new User(userData)
+ 
