@@ -33,4 +33,8 @@ module.exports = {
     return User.find()
   },
 
-  modifyUser (userData) 
+  modifyUser (userData) {
+    User.findOne({login: userData.login })
+      .then(user => {
+        user.holdings = userData.holdings
+   
