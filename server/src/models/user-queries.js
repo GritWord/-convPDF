@@ -25,4 +25,12 @@ module.exports = {
     return User.findById(id)
   },
 
-  getUserByLogi
+  getUserByLogin(login) {
+    return User.findOne({ login })
+  },
+
+  getUsers () {
+    return User.find()
+  },
+
+  modifyUser (userData) 
