@@ -43,4 +43,6 @@ module.exports = {
   },
 
   deleteUser (user) {
-    User.deleteOn
+    User.deleteOne({ id: user.id })
+  }
+}
