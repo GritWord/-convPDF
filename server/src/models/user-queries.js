@@ -37,4 +37,10 @@ module.exports = {
     User.findOne({login: userData.login })
       .then(user => {
         user.holdings = userData.holdings
-   
+        user.holdingDolls = userData.holdingDolls
+        user.save()
+      })
+  },
+
+  deleteUser (user) {
+    User.deleteOn
