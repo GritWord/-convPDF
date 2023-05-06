@@ -91,3 +91,11 @@ router.post('/newData', (req, res) => {
     })
   } catch (error) {
     response.status(401)
+      .json({
+        success: false,
+        message: 'Token invalide'
+      })
+  }
+})
+
+module.exports = router
