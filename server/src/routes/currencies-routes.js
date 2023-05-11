@@ -13,4 +13,8 @@ const usd = new Intl.NumberFormat('en-US', {
     minimumFractionDigits: 2
   });
 
-// Fonction réutilisable pour faire 
+// Fonction réutilisable pour faire des appels à l'API CMC
+function fetchCMC (path) {
+    const apiKey = process.env.CMC_API_KEY
+
+    return fetch(`${apiB
