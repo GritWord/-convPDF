@@ -8,4 +8,9 @@ const router = new express.Router()
 const apiBaseUrl = 'https://pro-api.coinmarketcap.com/v1'
 
 const usd = new Intl.NumberFormat('en-US', {
-    style: 'cu
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2
+  });
+
+// Fonction réutilisable pour faire 
