@@ -17,4 +17,8 @@ const usd = new Intl.NumberFormat('en-US', {
 function fetchCMC (path) {
     const apiKey = process.env.CMC_API_KEY
 
-    return fetch(`${apiB
+    return fetch(`${apiBaseUrl}${path}`, {
+        method: "GET",
+        headers: {
+            accept: 'application/json',
+            'x-cmc_pr
