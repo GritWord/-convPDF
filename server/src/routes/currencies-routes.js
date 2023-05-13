@@ -21,4 +21,10 @@ function fetchCMC (path) {
         method: "GET",
         headers: {
             accept: 'application/json',
-            'x-cmc_pr
+            'x-cmc_pro_api_key': apiKey
+        }
+    })
+    .then(fetchResponse => {
+        return fetchResponse.json();
+    })
+    .then(response
