@@ -30,4 +30,10 @@ function fetchCMC (path) {
     .then(responseData => {
         const errorCode = responseData.status.error_code
         if (errorCode != 0) {
-            throw ne
+            throw new Error(responseData.status.error_message)
+        }
+        return responseData.data
+    })
+}
+
+router.get('/', function getRoot(req
