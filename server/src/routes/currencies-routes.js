@@ -36,4 +36,10 @@ function fetchCMC (path) {
     })
 }
 
-router.get('/', function getRoot(req
+router.get('/', function getRoot(req, res) {
+
+    const path = '/cryptocurrency/listings/latest'
+
+    fetchCMC(path)
+    .then(currencies => {
+        res.js
