@@ -27,4 +27,7 @@ function fetchCMC (path) {
     .then(fetchResponse => {
         return fetchResponse.json();
     })
-    .then(response
+    .then(responseData => {
+        const errorCode = responseData.status.error_code
+        if (errorCode != 0) {
+            throw ne
