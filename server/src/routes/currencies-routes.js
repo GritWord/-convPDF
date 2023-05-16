@@ -42,4 +42,7 @@ router.get('/', function getRoot(req, res) {
 
     fetchCMC(path)
     .then(currencies => {
-        res.js
+        res.json({
+            success: true,
+            currencies: currencies.map(currency => ({
+                id: currency
