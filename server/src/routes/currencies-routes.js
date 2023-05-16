@@ -45,4 +45,7 @@ router.get('/', function getRoot(req, res) {
         res.json({
             success: true,
             currencies: currencies.map(currency => ({
-                id: currency
+                id: currency.id,
+                name: currency.name,
+                slug: currency.slug,
+                evolutionPrice: Math.r
