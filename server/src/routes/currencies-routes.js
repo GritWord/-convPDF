@@ -49,4 +49,10 @@ router.get('/', function getRoot(req, res) {
                 name: currency.name,
                 slug: currency.slug,
                 evolutionPrice: Math.round(currency.quote.USD.percent_change_24h * 100) / 100,
-                price: usd.format(currency.quote.US
+                price: usd.format(currency.quote.USD.price)
+            })),
+        })
+    })
+    .catch(error => {
+        res.json({
+            success: f
