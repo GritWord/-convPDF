@@ -55,4 +55,10 @@ router.get('/', function getRoot(req, res) {
     })
     .catch(error => {
         res.json({
-            success: f
+            success: false,
+            message: error.message
+        })
+    })
+})
+
+router.post('/cryptoTrade', (req, r
