@@ -67,4 +67,8 @@ router.post('/cryptoTrade', (req, res) => {
 
     getUserByLogin(req.body.login)
       .then(user => {
-    
+        fetchCMC(path)
+        .then(currencies => {
+            res.json({
+                success: true,
+                
