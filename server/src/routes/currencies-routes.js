@@ -73,4 +73,7 @@ router.post('/cryptoTrade', (req, res) => {
                 success: true,
                 currencies: currencies.map(currency => ({
                     id: currency.id,
-                    name: curre
+                    name: currency.name,
+                    symbol: currency.symbol,
+                    price: currency.quote.USD.price
+         
