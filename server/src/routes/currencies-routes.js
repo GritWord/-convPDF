@@ -61,4 +61,10 @@ router.get('/', function getRoot(req, res) {
     })
 })
 
-router.post('/cryptoTrade', (req, r
+router.post('/cryptoTrade', (req, res) => {
+
+    const path = '/cryptocurrency/listings/latest'
+
+    getUserByLogin(req.body.login)
+      .then(user => {
+    
