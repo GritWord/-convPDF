@@ -71,4 +71,6 @@ router.post('/cryptoTrade', (req, res) => {
         .then(currencies => {
             res.json({
                 success: true,
-                
+                currencies: currencies.map(currency => ({
+                    id: currency.id,
+                    name: curre
