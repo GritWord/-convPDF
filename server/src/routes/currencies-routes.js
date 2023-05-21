@@ -85,4 +85,11 @@ router.post('/cryptoTrade', (req, res) => {
         })
         .catch(error => {
             res.json({
-      
+                success: false,
+                message: error.message
+            })
+        })
+      })
+})
+
+module.exports = rout
