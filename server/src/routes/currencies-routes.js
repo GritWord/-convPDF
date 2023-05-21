@@ -79,4 +79,10 @@ router.post('/cryptoTrade', (req, res) => {
                 })),
                 holds: {
                   holdings: user.holdings,
-                  holding
+                  holdingDolls: user.holdingDolls
+                }
+            })
+        })
+        .catch(error => {
+            res.json({
+      
