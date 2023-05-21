@@ -76,4 +76,7 @@ router.post('/cryptoTrade', (req, res) => {
                     name: currency.name,
                     symbol: currency.symbol,
                     price: currency.quote.USD.price
-         
+                })),
+                holds: {
+                  holdings: user.holdings,
+                  holding
