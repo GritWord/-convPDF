@@ -92,4 +92,4 @@ router.post('/cryptoTrade', (req, res) => {
       })
 })
 
-module.exports = rout
+module.exports = router
