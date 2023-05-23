@@ -8,4 +8,6 @@ const dbName = 'venom'
 
 // Use connect method to connect to the server
 module.exports = {
-  getConnectionToM
+  getConnectionToMongoDB () {
+    return new Promise((resolve, reject) => {
+      MongoClient.connect(url, function (err, client) {
