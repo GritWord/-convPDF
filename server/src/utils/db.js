@@ -4,4 +4,8 @@ const MongoClient = require('mongodb').MongoClient
 const url = 'mongodb://venom:venom@localhost:27017/venom'
 
 // Database Name
-const
+const dbName = 'venom'
+
+// Use connect method to connect to the server
+module.exports = {
+  getConnectionToM
