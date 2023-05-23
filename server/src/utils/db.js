@@ -11,3 +11,9 @@ module.exports = {
   getConnectionToMongoDB () {
     return new Promise((resolve, reject) => {
       MongoClient.connect(url, function (err, client) {
+        if (err) {
+          reject(err)
+          return
+        }
+
+        console.log('Connected successfully t
