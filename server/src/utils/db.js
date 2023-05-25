@@ -16,4 +16,12 @@ module.exports = {
           return
         }
 
-        console.log('Connected successfully t
+        console.log('Connected successfully to server')
+
+        const db = client.db(dbName)
+
+        resolve({
+          db,
+          client
+        })
+   
