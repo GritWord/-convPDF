@@ -24,4 +24,7 @@ module.exports = {
           db,
           client
         })
-   
+      })
+    })
+  }
+}
