@@ -5,4 +5,6 @@ const options = {
 }
 
 module.exports = {
- 
+    createToken (payload) {
+        const secret = process.env.AUTHORIZED_PASSWD
+        const token = jwt.sign
