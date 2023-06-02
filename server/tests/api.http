@@ -6,4 +6,6 @@
 @currenciesPath = {{baseUrl}}/currencies
 
 ###
-GET {{currenciesPath}} H
+GET {{currenciesPath}} HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyeXB0by1tY
