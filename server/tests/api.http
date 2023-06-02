@@ -1,4 +1,9 @@
 @apiPrefix = /api/v1
 @port = 4000
 @host = localhost
-@
+@baseUrl = http://{{host}}:{{port}}{{apiPrefix}}
+
+@currenciesPath = {{baseUrl}}/currencies
+
+###
+GET {{currenciesPath}} H
