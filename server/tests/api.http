@@ -8,4 +8,8 @@
 ###
 GET {{currenciesPath}} HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyeXB0by1tY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImNyeXB0by1tYXN0ZXIiLCJpYXQiOjE2MDUwMjMxODcsImV4cCI6MTYwNTAyNjc4N30.wGNdAQLXOfDiWuZMOxIb4c5u_q1AFyIkIS1tK_oM-yU
+
+###
+
+POST {{baseUrl
