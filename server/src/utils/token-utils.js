@@ -11,4 +11,7 @@ module.exports = {
         return token
     },
     checkToken (token) {
-        const secret = process.env.
+        const secret = process.env.AUTHORIZED_PASSWD
+        return jwt.verify(token, secret)
+    }
+}

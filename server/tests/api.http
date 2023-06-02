@@ -1,0 +1,4 @@
+@apiPrefix = /api/v1
+@port = 4000
+@host = localhost
+@
